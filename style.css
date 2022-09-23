@@ -1,0 +1,146 @@
+/* Start all css tag */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Start header css */
+.menu h2 {
+    background: #34495E;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+/* End header css */
+
+/* Start benner css */
+.benner {
+    background: #E67E22;
+    text-align: center;
+}
+.benner img {
+    width: 550px;
+    height: 300px;
+    margin: 60px 0px;
+    box-shadow: 7px 11px 8px white;
+}
+/* End benner css */
+
+/* Start title css */
+.title {
+    background: #34495E;
+    padding-bottom: 50px;
+}
+.title h2 {
+    color: white;
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    
+}
+.title h3 {
+    color: #3497D9;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.title p {
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+}
+.title p::before {
+    content: 'I am paragraph.';
+}
+/* End title css */
+
+/* Start service css */
+.service {
+    background: #9B59B6;
+}
+.service p{
+    color: white;
+    text-align: center;
+    margin: 0px 40px;
+    padding-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+.service h3:nth-child(2) {
+    color: #198754;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.service h3:nth-child(3) {
+    color: #F3C70B;
+    text-align: center;
+    padding: 5px opx;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.service h3:nth-child(4) {
+    color: #95A6A6;
+    text-align: center;
+    padding: 5px 0px 50px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+/* Start service css */
+
+/* Start ranking css */
+.rank {
+    background: #FF9814;
+    padding: 70px 0px 40px 0px;
+    position: relative;
+    
+}
+.rank div:first-child {
+    width: 400px;
+    height: 100px;
+    background: #DCDCDC;
+    border: 4px dashed black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 27%;
+    left: 35%;
+    
+    
+}
+.rank div:last-child {
+    width: 400px;
+    height: 100px;
+    background: #F9F9F9;
+    border-radius: 5px;
+    margin: auto;
+}
+.rank .rank-1 .star {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+}
+/* End ranking css */
+
+/* Staert footer css */
+.footer {
+    background: #2C3E50;
+}
+.footer h4 {
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    padding: 20px 0px 35px 0px;
+}
+/* End footer css */
